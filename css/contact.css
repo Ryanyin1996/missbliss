@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8e8d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Lora", serif;
+}
+
+.contact-container {
+    text-align: center;
+    padding: 40px;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 45px;
+    color: #a67c52;
+}
+
+.contact-info {
+    font-size: 35px; /* Increase font size for all contact details */
+    color: #5a3e2b;
+    margin-top: 20px;
+}
+
+.contact-item {
+    margin: 10px 0;
+    font-size: 35px; /* Ensure each contact item is large */
+}
+
+strong {
+    font-size: 35px; /* Increase font size for labels */
+    color: #8c5e3c;
+}
+
+.back-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: #a67c52;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.back-home:hover {
+    background: #8c5e3c;
+}
